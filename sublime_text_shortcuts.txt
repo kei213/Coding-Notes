@@ -1,0 +1,3 @@
+- shift+ctrl+d // copy line and paste below
+- alt+f3 // select all instances of word on page and edit
+- lorem + Tab // add ipsum lorem text to page

@@ -1,0 +1,52 @@
+Git commands:
+
+- git init
+
+- git add index.html // add file to track
+
+- git status  // check status
+
+- git commit -m "add comment what you did"  // commit
+
+- git add .   // add's all files
+
+- git restore --staged <file>  // unstage file
+
+- git checkout -b newBranchName  // creates new branch and switches to it
+
+- git checkout master // switches to master branch 
+
+- git remote add origin https://github.com/kei213/Maun-Bridal-Couture.git
+
+- git push -u origin main // run this first time pushing to Github
+
+- git branch newBranchName // Create new branch
+
+- git branch // to see local branches
+
+- git branch -r // to see remote branches
+
+- git branch -a // to see all local and remote branches
+
+- git merge branchName // merges branchName to main
+
+- git branch -d branchName // delete branch locally
+
+- git push origin --delete branchName // delete branch remotely
+
+- git remote -v // displays the url of the repository
+
+- git log // displays info
+
+- git fetch https://github.com/kei213/Mobile-Money-BW.git build // fetches from remote
+  git merge FETCH_HEAD  // merges fetched with local branch
+
+Git Alliases
+
+- st   status
+- br   branch
+- co   checkout
+- ci   commit
+- ps   push
+
+

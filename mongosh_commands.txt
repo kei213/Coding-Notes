@@ -1,0 +1,17 @@
+> cls    // clear screen
+
+> exit    // quit mongosh
+
+> show dbs    // shows list of db's
+
+> use dbname // switches to dbname
+
+> db    // shows current db
+
+> show collections    // shows collections in db
+
+> db.createCollection('collectionName')    //  create collection in current db
+
+> db.collectionName.insertOne({})    // insert document into collectionName
+
+> db.collectionName.insertMany([{},{}])  // insert many documents into collectionName
