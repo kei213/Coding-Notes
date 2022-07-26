@@ -41,6 +41,8 @@ Git commands:
 - git fetch https://github.com/kei213/Mobile-Money-BW.git build // fetches from remote
   git merge FETCH_HEAD  // merges fetched with local branch
 
+  git fetch origin
+
 Git Alliases
 
 - st   status
