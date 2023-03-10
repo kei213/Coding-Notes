@@ -2,7 +2,10 @@
 ```
 Model.create({name, password, email})
 ```
-
+# Find one by passing parameter
+```
+Model.findOne({email:req.body.email})
+```
 # Find by Id
 ```
 Model.findById(id)
